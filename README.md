@@ -1,5 +1,3 @@
-# Define the README content
-readme_content = """
 # **Screw Anomaly Classification Project**
 
 This repository is part of a semester project for **Manufacturing Engineering (VT1)**. The goal of this project was to develop a machine learning algorithm capable of classifying screw anomaly types. The work builds upon previous results and is part of a larger project.
@@ -41,7 +39,3 @@ This repository contains the following Python scripts implemented as Jupyter not
 
 This project explores the application of machine learning in industrial manufacturing processes, specifically for detecting and classifying screw anomalies. The machine learning model utilizes both intrinsic (sensor data) and extrinsic (audio or visual) features for classification.
 """
-
-# Write the README content to a Markdown file
-with open("README.md", "w") as f:
-    f.write(readme_content)
